@@ -23,12 +23,18 @@ export default {
     solde: '4876078',
     currency: '€',
     operations: [
-        // {
-        //     message: "transfert sepa reçu de EDF actionnaires",
-        //     date: "19/10/2023",
-        //     amount: "102.000€",
-        //     type: "out"
-        // },
+         {
+             message: "transfert sepa reçu de EDF actionnaires",
+             date: "19/10/1992",
+             amount: "1020€",
+             type: "in"
+         },
+        {
+             message: "achat de bijou",
+             date: "19/10/1992",
+             amount: "1020€",
+             type: "in"
+         },
         // {
         //     message: "Virement reçu de AREVA groupe ",
         //     date: "07/09/2023",
