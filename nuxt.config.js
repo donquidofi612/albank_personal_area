@@ -28,7 +28,7 @@ export default {
   // Configurer les modules Nuxt.js à utiliser
   modules: [
     '@nuxtjs/axios',
-    'vue-sweetalert2/nuxt',
+   // 'vue-sweetalert2/nuxt',
       '@nuxtjs/axios',
       ['nuxt-mail', {
           message: {
