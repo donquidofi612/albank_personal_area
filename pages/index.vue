@@ -228,11 +228,11 @@
                 <div class="tw-border-b tw-w-full tw-flex tw-justify-between tw-bg-gray-50">
                   <th scope="row"
                       class="tw-px-6 tw-py-4 tw-font-medium tw-text-gray-900 tw-whitespace-nowrap dark:tw-text-white">
-                    Status du compte : Bloqué
+                    Status du compte :
                   </th>
 
                   <td class="tw-px-6 tw-py-4">
-                    <a href="#" class="tw-font-medium tw-text-green-600 hover:tw-underline">Actif</a>
+                    <a href="#" class="tw-font-medium tw-text-green-600 hover:tw-underline">Bloqué</a>
                   </td>
                 </div>
               </div>
@@ -349,13 +349,15 @@ export default {
     // const fs = require('fs');
     // const data = fs.readFileSync('data.json');
     // alert(localStorage.getItem('beneficiaires'))
-    if (localStorage.getItem('beneficiaires')) {
-      this.beneficiaires = JSON.parse(localStorage.getItem('beneficiaires'))
-    }
-    if (localStorage.getItem('virements'))
-      this.virements = [...JSON.parse(localStorage.getItem('virements')), ...config.operations]
-    else
-      this.virements.concat(config.operations)
+
+
+    // if (localStorage.getItem('beneficiaires')) {
+    //   this.beneficiaires = JSON.parse(localStorage.getItem('beneficiaires'))
+    // }
+    // if (localStorage.getItem('virements'))
+    //   this.virements = [...JSON.parse(localStorage.getItem('virements')), ...config.operations]
+    // else
+      this.virements = config.operations
   }
 }
 

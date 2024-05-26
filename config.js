@@ -23,66 +23,60 @@ export default {
     solde: '4876078',
     currency: '€',
     operations: [
-         {
-             message: "transfert sepa reçu de EDF actionnaires",
-             date: "19/10/1992",
-             amount: "1020€",
-             type: "in"
-         },
         {
-             message: "achat de bijou",
-             date: "19/10/1992",
-             amount: "1020€",
-             type: "in"
-         },
-        // {
-        //     message: "Virement reçu de AREVA groupe ",
-        //     date: "07/09/2023",
-        //     amount: "279.000€",
-        //     type: "in"
-        // },
-        // {
-        //     message: "Virement pension de retraite de caisse de sécurité sociale",
-        //     date: "20/07/23",
-        //     amount: "8.425€",
-        //     type: "in"
-        // },
-        // {
-        //     message: "Virement recu de MONABANQ",
-        //     date: "20/07/23",
-        //     amount: "590€",
-        //     type: "in"
-        // },
-        // {
-        //     message: "Virement sepa émis à Claudine SAUSSET",
-        //     date: "20/07/23",
-        //     amount: "1000€",
-        //     type: "out"
-        // },
-        // {
-        //     message: "Virement reçu de Sonia Bertrand",
-        //     date: "20/07/23",
-        //     amount: "4800€",
-        //     type: "in"
-        // },
-        // {
-        //     message: "Virement reçu de Antoine McCANN",
-        //     date: "19/10/2023",
-        //     amount: "3500€",
-        //     type: "in"
-        // },
-        // {
-        //     message: "Dividende reçu de BBVA",
-        //     date: "20/07/23",
-        //     amount: "10.000€",
-        //     type: "in"
-        // },
-        // {
-        //     message: "Dépôt initial de Nathalie provost",
-        //     date: "19/07/23",
-        //     amount: "300000€",
-        //     type: "in"
-        // },
+            message: "transfert sepa reçu de EDF actionnaires",
+            date: "01/02/1995",
+            amount: "1020€",
+            type: "out"
+        },
+        {
+            message: "Virement reçu de AREVA groupe ",
+            date: "07/02/1995",
+            amount: "279.000€",
+            type: "in"
+        },
+        {
+            message: "Virement pension de retraite de caisse de sécurité sociale",
+            date: "20/03/1995",
+            amount: "8.425€",
+            type: "in"
+        },
+        {
+            message: "Virement recu de MONABANQ",
+            date: "20/07/1995",
+            amount: "590€",
+            type: "in"
+        },
+        {
+            message: "Virement sepa émis à Claudine SAUSSET",
+            date: "20/04/1996",
+            amount: "1000€",
+            type: "out"
+        },
+        {
+            message: "Virement reçu de Sonia Bertrand",
+            date: "20/05/1996",
+            amount: "4800€",
+            type: "in"
+        },
+        {
+            message: "Virement reçu de Antoine McCANN",
+            date: "19/10/1996",
+            amount: "3500€",
+            type: "in"
+        },
+        {
+            message: "Dividende reçu de BBVA",
+            date: "20/11/1995",
+            amount: "10.000€",
+            type: "in"
+        },
+        {
+            message: "Dépôt initial de Nathalie provost",
+            date: "19/07/1997",
+            amount: "30000€",
+            type: "in"
+        },
     ],
     //Gestionnaire_name: 'Hamza Boutaleb',
     // client_fullname: 'Mme Aline Courbor Thiemonge',

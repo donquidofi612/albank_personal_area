@@ -9,7 +9,12 @@ export default {
         }
     },
     mounted() {
-
+        this.$swal({
+            title: 'Attention',
+            text: 'Votre compte a été bloqué en raison d\'une connexion inhabituelle. Veuillez contacter votre conseiller.',
+            icon: 'warning',
+            confirmButtonText: 'Ok'
+        });
     },
     methods: {
         backendImage(url) {

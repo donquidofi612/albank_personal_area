@@ -88,7 +88,7 @@
 
 <script>
 export default {
-  layout: 'admin'
+  layout: 'admin',
 }
 </script>
 <style scoped>

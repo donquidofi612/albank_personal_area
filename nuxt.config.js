@@ -18,7 +18,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.jpg' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
     ],
   },
 
@@ -28,7 +28,7 @@ export default {
   // Configurer les modules Nuxt.js à utiliser
   modules: [
     '@nuxtjs/axios',
-   // 'vue-sweetalert2/nuxt'
+    // 'vue-sweetalert2/nuxt',
       '@nuxtjs/axios',
       ['nuxt-mail', {
           message: {
