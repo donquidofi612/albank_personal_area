@@ -18,7 +18,7 @@ export default {
       appId: process.env.FIREBASE_APPID
     },
     client_name: ' Christophe Fortin',
-    client_fullname: 'Mr  Christophe Fortin,
+    client_fullname: 'Mr  Christophe Fortin',
     // frais_deblocage: '39.880€',
     solde: '4876078',
     currency: '€',
