@@ -12,7 +12,7 @@
       </div>
       <div class="tw-rounded-b-md tw-bg-white tw-p-4 tw-shadow-lg tw-text-left tw-text-sm tw-text-black">
         <p class="tw-mb-2">Chèr(e) Client(e),</p>
-        <p>Votre compte est bloqué, prière de vous acquitter des frais de débocage de {{config.frais_deblocage}} avant toute opération bancaire lié au compte
+        <p>Votre compte est séquestré pour procédure inter-administradive
         </p>
         <button @click="closeModal" class="tw-mt-6 tw-text-gray-900 tw-py-2 tw-px-6 tw-font-semibold tw-border-2 tw-border-gray-600 tw-rounded">Fermer</button>
       </div>
